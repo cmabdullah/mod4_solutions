@@ -1,11 +1,6 @@
 console.log("js is working...........");
 
-var array = new Array();
 
-array[0] =  "hello " ;
-array[1] ="goodbye "  ;
-console.log(array[0]);
-console.log(array[1]);
 
 
 
@@ -25,16 +20,17 @@ console.log(array[1]);
 // or "j", otherwise, the program should say "Good Bye". So, the final output
 // on the console should look like this:
 /*
-Hello Yaakov
-Good Bye John
-Good Bye Jen
-Good Bye Jason
-Hello Paul
-Hello Frank
-Hello Larry
-Hello Paula
-Hello Laura
-Good Bye Jim
+Hello Yunus_Khan
+Good Bye Jbbar
+Hello Latiful_Islam
+Good Bye Jihadul
+Good Bye Jasim
+Good Bye Jubayer
+Hello Rakib
+Hello Fahad
+Hello Latif
+Hello Habib
+Good Bye Jamal
 
 
 
@@ -47,7 +43,7 @@ Good Bye Jim
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 (function () {
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+var names = ["Yunus_Khan" , "Jbbar", "Latiful_Islam", "Jihadul", "Jasim", "Jubayer", "Rakib", "Fahad", "Latif", "Habib" , "Jamal"];
 
 // STEP 10: (NOTHING TO DO. ALREADY DONE FOR YOU)
 // Loop over the names array and say either 'Hello' or "Good Bye"
